@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Shelf - Book App</title>
+    <link rel="stylesheet" href="/styles/base.css">
+</head>
+<body>
+    <header class="bg-black">
+        <h1>Best Books!</h1>
+    </header>
+    <main>
+        <h2>Search by Title or Author</h2>
+        <form action="">
+            <label>
+                <input type="search" name="q" id="search-field" placeholder="Enter a title or author">
+            </label>
+            <div>
+                <label for="title">Title</label>
+                <input type="radio" id="title" name="search" value="title">
+            </div>
+            <div>
+                <label for="author">Author</label>
+                <input type="radio" id="author" name="search" value="author">
+            </div>
+            <button type="submit" id="submit-btn">Search the Google Books API</button>
+        </form>
+    </main>
+    <footer class="bg-black"></footer>
+</body>
+</html>

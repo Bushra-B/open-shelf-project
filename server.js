@@ -15,7 +15,8 @@ const PORT = process.env.PORT || 3030;
 app.use(express.static('./public'));
 
 //Set the view engine
-app.set('views', './views/pages');
+// app.set('views', './views/pages');
+app.set('views', './views/pages/searches');
 app.set('view engine', 'ejs');
 
 //Handle any route
@@ -24,11 +25,14 @@ app.get('/', (request, response) => {
 });
 
 //Temp route for testing
-app.get('/test',(request,response)=>{
+app.get('/test',(request,response) => {
   response.render('index');
 });
 
-
+//Search page route
+app.get('/searches/new', (request, response) => {
+  response.render('new');
+});
 
 //Listening on PORT
 app.listen(PORT, () => {

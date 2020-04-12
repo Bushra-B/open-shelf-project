@@ -9,5 +9,28 @@ main{
     height: 50px;
 }
 h1{
-    text-align: center;
+    text-align: left;
+    color: #fff;
+}
+h2{
+    background-color: #4A4A4A;
+    color: #fff;
+}
+#search-field {
+    margin-bottom: 40px;
+}
+div{
+    background-color: #d8d8d8;
+    padding: 21px;
+    margin-bottom: 40px;
+}
+#title {
+    margin-left: 20px;
+}
+#submit-btn {
+    background-color: #000;
+    color: #fff;
+    height: 54px;
+    width: 211px;
+    border: none;
 }
