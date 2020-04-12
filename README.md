@@ -1,11 +1,11 @@
 # Book App Project
 
-**Author**: Bushra Bilal
-**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
+**Author**: Bushra Bilal  
+**Version**: 0.0.2  
 
-## Overview
+## Overview  
 A basic full-stack application for a book list which includes the ability to search the Google Books API, add books to a database, and then render those books from a PostgreSQL database. 
-In addition to the ability to update the details of a book or remove it from the collection.
+In addition to the ability to update the details of a book or remove it from the collection.  
 
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
@@ -16,32 +16,31 @@ In addition to the ability to update the details of a book or remove it from the
 ## Change Log
 <!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
 
-01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
+12-04-20 - Application now has a fully-functional express server, with GET and POST routes for the book resource.
 
-## Credits and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+
 -->
 
 ## Lab 11 Features - Time Estimate:
 
-Number and name of feature: ft#1 — server-side rendering for homepage
+Number and name of feature: ft#1 — server-side rendering for homepage  
 
-Estimate of time needed to complete: 30 minutes
+Estimate of time needed to complete: 30 minutes  
 
-Start time: 3:30 PM
+Start time: 3:30 PM  
 
-Finish time: 4:30 PM
+Finish time: 4:30 PM  
 
-Actual time needed to complete: 1 hour
+Actual time needed to complete: 1 hour  
 
 _____________________________________
 
-Number and name of feature: ft#2 — searching Google Books API form
+Number and name of feature: ft#2 — searching Google Books API form  
 
-Estimate of time needed to complete: 40 minutes
+Estimate of time needed to complete: 40 minutes  
 
-Start time: 4:35 PM
+Start time: 4:35 PM  
 
-Finish time: 5:45 PM
+Finish time: 5:45 PM  
 
-Actual time needed to complete: 1 hour and 10 minutes
+Actual time needed to complete: 1 hour and 10 minutes  
