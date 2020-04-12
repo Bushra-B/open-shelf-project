@@ -33,3 +33,15 @@ Start time: 3:30 PM
 Finish time: 4:30 PM
 
 Actual time needed to complete: 1 hour
+
+_____________________________________
+
+Number and name of feature: ft#2 — searching Google Books API form
+
+Estimate of time needed to complete: 40 minutes
+
+Start time: 4:35 PM
+
+Finish time: 5:45 PM
+
+Actual time needed to complete: 1 hour and 10 minutes
