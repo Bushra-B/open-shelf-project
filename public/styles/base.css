@@ -1,0 +1,13 @@
+body{
+    background-color: #9b9b9b;
+}
+main{
+    height: 500px;
+}
+.bg-black{
+    background-color: #000000;
+    height: 50px;
+}
+h1{
+    text-align: center;
+}

@@ -21,3 +21,15 @@ In addition to the ability to update the details of a book or remove it from the
 ## Credits and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 -->
+
+## Lab 11 Features - Time Estimate:
+
+Number and name of feature: ft#1 — server-side rendering for homepage
+
+Estimate of time needed to complete: 30 minutes
+
+Start time: 3:30 PM
+
+Finish time: 4:30 PM
+
+Actual time needed to complete: 1 hour
