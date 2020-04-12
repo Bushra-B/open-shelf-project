@@ -16,7 +16,8 @@ app.use(express.static('./public'));
 
 //Set the view engine
 // app.set('views', './views/pages');
-app.set('views', './views/pages/searches');
+// app.set('views', './views/pages/searches');
+app.set('views', './views');
 app.set('view engine', 'ejs');
 
 //Handle any route
@@ -26,12 +27,12 @@ app.get('/', (request, response) => {
 
 //Temp route for testing
 app.get('/test',(request,response) => {
-  response.render('index');
+  response.render('pages/index');
 });
 
 //Search page route
 app.get('/searches/new', (request, response) => {
-  response.render('new');
+  response.render('pages/searches/new');
 });
 
 //Listening on PORT
