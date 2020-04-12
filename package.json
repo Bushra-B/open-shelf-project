@@ -1,0 +1,27 @@
+{
+  "name": "open-shelf-project",
+  "version": "1.0.0",
+  "description": "**Author**: Bushra Bilal\r **Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bushra-B/open-shelf-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bushra-B/open-shelf-project/issues"
+  },
+  "homepage": "https://github.com/Bushra-B/open-shelf-project#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "superagent": "^5.2.2"
+  }
+}
