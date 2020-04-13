@@ -1,3 +1,4 @@
+@media (min-width:360px) {
 body{
     background-color: #9b9b9b;
 }
@@ -13,16 +14,22 @@ h1{
     color: #fff;
 }
 h2{
-    background-color: #4A4A4A;
+    background: #4A4A4A;
     color: #fff;
+    margin-top: 0;
+    height: 50px;
 }
 #search-field {
     margin-bottom: 40px;
+    height: 48px;
+    width: 206px;
+    padding: 12px;
 }
 div{
     background-color: #d8d8d8;
     padding: 21px;
     margin-bottom: 40px;
+    width: 166px;
 }
 #title {
     margin-left: 20px;
@@ -33,4 +40,5 @@ div{
     height: 54px;
     width: 211px;
     border: none;
+}
 }

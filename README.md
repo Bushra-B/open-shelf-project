@@ -44,3 +44,15 @@ Start time: 4:35 PM
 Finish time: 5:45 PM  
 
 Actual time needed to complete: 1 hour and 10 minutes  
+
+_____________________________________
+
+Number and name of feature: ft#3 — brows search results    
+
+Estimate of time needed to complete: 1 hour  
+
+Start time: 10:03 PM  
+
+Finish time: 5:45 PM  
+
+Actual time needed to complete: 1 hour and 10 minutes  
