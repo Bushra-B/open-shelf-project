@@ -68,7 +68,7 @@ function getData(request, response) {
     })
     .catch(error => {
       console.error(error);
-    //   response.render('pages/error');
+      response.render('pages/error');
     });
 }
 
