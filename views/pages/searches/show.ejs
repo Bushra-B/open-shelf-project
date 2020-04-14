@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Shelf - Book App</title>
+    <link rel="stylesheet" href="/styles/base.css">
+</head>
+<body>
+    <header class="bg-black"></header>
+    <main>
+        <h1>Search Results</h1>
+        <div>
+            <%dataArr.forEach(element => {%>
+                <img src="<%=element.image%>">
+                <h2><%=element.title%></h2>
+                <h5><%=element.author%></h5>
+                <p><%=element.description%></p>
+            <%})%>
+        </div>
+    </main>
+    <footer class="bg-black"></footer>
+</body>
+</html>
