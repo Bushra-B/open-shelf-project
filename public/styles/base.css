@@ -1,9 +1,9 @@
-@media (min-width:360px) {
+/* @media (min-width:360px) { */
 body{
     background-color: #9b9b9b;
 }
 main{
-    height: 500px;
+    height: auto;
 }
 .bg-black{
     background-color: #000000;
@@ -41,4 +41,12 @@ div{
     width: 211px;
     border: none;
 }
+form{
+    background-image: url(https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    padding: 13px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 710px;
+    border-radius: 29px;
 }
+/* } */
