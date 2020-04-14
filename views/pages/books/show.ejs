@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Details</h1></header>
+      <main>
+          <div>
+        <div>
+            <img src="<%= results.image_url %>">
+            <h3><%= results.title%></h3>
+            <h4><%= results.author %></h4>
+            <p><%= results.description %></p>
+            <p><%= results.isbn %></p>
+            <p><%= results.bookshelf %></p>
+        </div>
+          <button>Update Details</button>
+          <button>Remove</button>
+      </div>
+      </main>
+</body>
+</html>

@@ -7,9 +7,20 @@
     <link rel="stylesheet" href="/styles/base.css">
 </head>
 <body>
-    <header class="bg-black"></header>
+    <header class="bg-black"><h1>Homepage</h1></header>
     <main>
-        <h1>Test Homepage</h1>
+        <h2>My Books</h2>
+        <% results.forEach(element => { %>      
+            <div>
+                <img src="<%= element.image_url %>">
+                <h3><%= element.title%></h3>
+                <h4><%= element.author %></h4>
+                <p><%= element.description %></p>
+                <p><%= element.isbn %></p>
+                <p><%= element.bookshelf %></p>
+                <a href="/books/<%=element.id%>"><button>View Details</button></a>
+            </div>
+            <% }) %>
     </main>
     <footer class="bg-black"></footer>
 </body>
