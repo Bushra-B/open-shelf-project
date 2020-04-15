@@ -24,13 +24,13 @@ app.set('view engine', 'ejs');
 
 //Handle any route
 app.get('/', (request, response) => {
-  response.status(200).send('Working');
-});
-
-//Temo route for testing
-app.get('/test', (request, response) => {
   response.render('pages/index');
 });
+
+// //Temo route for testing
+// app.get('/test', (request, response) => {
+//   response.render('pages/index');
+// });
 
 //Routes
 app.get('/searches/new', searchHandler); //Search page
