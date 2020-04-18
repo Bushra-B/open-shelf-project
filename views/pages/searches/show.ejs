@@ -20,14 +20,14 @@
     <main id="showMain">
         <% data.forEach(val => { %>
         <div class="container">
-            <img src="<%= val.image_url %>">
+            <img src="<%= val.image%>">
             <h3><%= val.title%></h3>
             <h4><%= val.author %></h4>
             <p><%= val.description%></p>
             <button class="open-button   hide_btn"> Select This Book</button>
 
             <form action="/books" method="POST" id="book-form" class="form-container">
-                <input type="text" name="image_url" value="<%= val.image_url %>" style="display: none;">
+                <input type="text" name="image_url" value="<%= val.image %>" style="display: none;">
                 <input type="text" name="title" value="<%= val.title%>" />
                 <input type="text" name="author" value="<%= val.author%>" />
                 <input type="text" name="isbn" value="<%= val.isbn%>" />
