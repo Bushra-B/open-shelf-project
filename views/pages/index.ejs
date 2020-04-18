@@ -10,7 +10,13 @@
 </head>
 
 <body>
-    <header class="bg-black"><h1>Homepage</h1></header>
+    <header class="bg-black"><h1>Homepage</h1>
+        <nav id="menu">
+            <a href="/" class="atHover">Home</a>
+            <a href="searches/new" class="atHover">Search the Google Boooks API</a>
+        </nav>
+        <i class="fas fa-bars atHover" id="barsIcon"></i>
+    </header>
     <main id="indexMain">
         <% data.forEach(val => { %>      
           <div class="container">
@@ -25,6 +31,13 @@
           <% }) %>
       </main>
     <footer class="bg-black"></footer>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script>
+        $('#menu').hide();
+        $('#barsIcon').on('click', showMenu => {
+            $('#menu').toggle();
+        })
+    </script>
 </body>
 
 </html>

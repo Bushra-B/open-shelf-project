@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
     <title>Open Shelf - Book App</title>
     <link rel="stylesheet" href="/styles/reset.css">
     <link rel="stylesheet" href="/styles/base.css">
@@ -10,6 +11,11 @@
 <body>
     <header class="bg-black">
         <h1>Best Books!</h1>
+        <nav id="menu">
+            <a href="/" class="atHover">Home</a>
+            <a href="/searches/new" class="atHover">Search the Google Boooks API</a>
+        </nav>
+        <i class="fas fa-bars atHover" id="barsIcon"></i>
     </header>
     <main>
         <h2>Search by Title or Author</h2>
@@ -29,5 +35,12 @@
         </form>
     </main>
     <footer class="bg-black"></footer>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script>
+        $('#menu').hide();
+        $('#barsIcon').on('click', showMenu => {
+            $('#menu').toggle();
+        })
+    </script>
 </body>
 </html>
