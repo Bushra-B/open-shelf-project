@@ -8,20 +8,19 @@
 </head>
 <body>
     <header class="bg-black"><h1>Homepage</h1></header>
-    <main>
-        <h2>My Books</h2>
-        <% results.forEach(element => { %>      
-            <div>
-                <img src="<%= element.image_url %>">
-                <h3><%= element.title%></h3>
-                <h4><%= element.author %></h4>
-                <p><%= element.description %></p>
-                <p><%= element.isbn %></p>
-                <p><%= element.bookshelf %></p>
-                <a href="/books/<%=element.id%>"><button>View Details</button></a>
-            </div>
-            <% }) %>
-    </main>
+    <main id="indexMain">
+        <% data.forEach(val => { %>      
+          <div class="container">
+              <img src="<%= val.image_url %>">
+              <h3><%= val.title%></h3>
+              <h4><%= val.author %></h4>
+              <p><%= val.description %></p>
+              <p><%= val.isbn %></p>
+              <p><%= val.bookshelf %></p>
+              <a href="/books/<%=val.id%>"><button class="view-button"> View Details </button></a>
+          </div>
+          <% }) %>
+      </main>
     <footer class="bg-black"></footer>
 </body>
 </html>
